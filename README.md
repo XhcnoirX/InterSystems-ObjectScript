@@ -1,2 +1,2 @@
 # InterSystems-ObjectScript
-Various scripts for InterSystems ObjectScript
+Various scripts for InterSystems ObjectScript.
