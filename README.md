@@ -1,2 +1,2 @@
 # InterSystems-ObjectScript
-Various usful (hopfully) utility scripts for InterSystems ObjectScript.
+Various usful (hopefully) utility scripts for InterSystems ObjectScript.
