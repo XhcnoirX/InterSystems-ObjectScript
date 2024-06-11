@@ -55,4 +55,21 @@ ClassMethod Luhn(Input) As %Boolean
 	Quit Sum#10=0
 }
 
+/// Calculate the modulo of a and b, ie a%b in a lot of other languages
+ClassMethod Modulo(a As %Integer, b As %Integer) As %Integer
+{
+	quit a - (b * (a\b))
+}
+
+/// Reverse an array
+ClassMethod ReverseArray(in As %DynamicArray) As %DynamicArray
+{
+	set out = []
+	set size = in.%Size()
+	for i=size-1:-1:0 {
+		do out.%Push(in.%Get(i))
+	}
+	quit out
+}
+
 }
